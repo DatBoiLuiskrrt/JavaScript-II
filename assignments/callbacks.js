@@ -86,9 +86,14 @@ function contains(item, list, cb) {
   // Pass true to the callback if it is, otherwise pass false.
 }
 const checking = ( item, list) =>{
-  
-}
-
+  // fruits.includes("Banana", 3);
+  if (item.includes('Pencil', 'Notebook', 'yo-yo', 'Gum' )){
+    return true;
+  }else{
+    return false;
+  }
+};
+console.log(contains('Pencl', 'otebook', checking));
 /* STRETCH PROBLEM */
 
 function removeDuplicates(array, cb) {
