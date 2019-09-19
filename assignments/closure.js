@@ -8,7 +8,7 @@ function greet() {
   const firstName = 'Rosa';
   console.log(`The name's ${lastName}, ${firstName} ${lastName}`);
 }
-console.log(lastName);
+greet();
 
 /* STRETCH PROBLEMS, Do not attempt until you have completed all previous tasks for today's project files */
 
