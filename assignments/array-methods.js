@@ -61,7 +61,7 @@ let fullNames = [];
 runners.forEach(function(runners){
   return fullNames.push(`${runners.first_name}  ${runners.last_name}`);
 })
-console.log(fullNames);
+console.log(fullNames)
 
 // ==== Challenge 2: Use .map() ====
 // The event director needs to have all the runners' first names in uppercase because the director BECAME DRUNK WITH POWER. Populate an array called `firstNamesAllCaps`. This array will contain just strings.
@@ -99,7 +99,12 @@ console.log(finalDonation);
 // Now that you have used .forEach(), .map(), .filter(), and .reduce().  I want you to think of potential problems you could solve given the data set and the 5k fun run theme.  Try to create and then solve 3 unique problems using one or many of the array methods listed above.
 
 // Problem 1
-
+// the Company organize needs a list of companie names to add to their banner
+let companyNames = [];
+runners.forEach(function(runners){
+  return companyNames.push(`${runners.company_name}`);
+})
+console.log(companyNames.sort())
 // Problem 2
 
 // Problem 3
